@@ -8,30 +8,30 @@ There.
 -->
   <head>
     <script>
-function go(action) {
-  //set the button
-  document.getElementById("b_submit").disabled = !action;
+      function go(action) {
+        //set the button
+        document.getElementById("b_submit").disabled = !action;
 
-  //set the texts color
-  input  = document.getElementById("t_email");
-  if(action) {
-    input.style.backgroundColor = "#b1ffb0";
-  } else {
-    input.style.backgroundColor = "#ff0006";
-  }
-}
+        //set the texts color
+        input  = document.getElementById("t_email");
+        if(action) {
+          input.style.backgroundColor = "#b1ffb0";
+        } else {
+          input.style.backgroundColor = "#ff0006";
+        }
+      }
 
-function check(email) {
-  //email   = form.elements.namedItem("email").value;
-  if(!email.match(/^[a-z0-9_]+\+?[a-z0-9]*@[a-z0-9_]+\.[a-z]{2,6}$/i)) {
-    console.log(email + " is not a valid email address!");
-    go(false);
-    return;
-  }
-  console.log("OK:" + email);
-  go(true);
-  return false;
-}
+      function check(email) {
+        //email   = form.elements.namedItem("email").value;
+        if(!email.match(/^[a-z0-9_]+\+?[a-z0-9]*@[a-z0-9_]+\.[a-z]{2,6}$/i)) {
+          console.log(email + " is not a valid email address!");
+          go(false);
+          return;
+        }
+        console.log("OK:" + email);
+        go(true);
+        return false;
+      }
     </script>
   </head>
   <body>

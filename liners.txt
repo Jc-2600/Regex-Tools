@@ -89,12 +89,17 @@ dominio.com
 -99.205581, 19.429652,2275.10
 -99.204654,19.428952,2275.58
 
-
+esto es un prueba
+12,14,56
 -99 12' 34.08"W, 19 34' 56.98"N
 -34 54' 32.00"E, -3 21' 67.00"S
 -3a4 54' 32.00"E, -3 21' 67.00"S
 
+ds81748182
 
+AB21231242
+CD23123948
+CA21394582
 gravel.notes.handbag
 reaming.embeds.rats
 
@@ -125,8 +130,8 @@ Manuel Andres García Márquez
 https://b3co.com/?s=fotografia&mode=search&module=blog
 https://www.google.com/search?q=regex+platzi&oq=regex+platzi&aqs=chrome..69i57j69i60.6885j0j9&sourceid=chrome&ie=UTF-8
 https://co.search.yahoo.com/search?p=flickr&fr=yfp-t&fp=1&toggle=1&cop=mss&ie=UTF-8
-
-
+[12,34,56,78],23
+[12],34,234
 https://b3co.com/
  - s => fotografia
  - mode => search
