@@ -19,3 +19,6 @@ while(!feof($file)) {
 fclose($file);
 
 fwrite(STDERR, sprintf("ok: %d\nno: %d\ntime: %ds\nEND\n", $ok, $no, time() - $t));
+
+
+

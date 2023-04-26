@@ -17,7 +17,7 @@ for line in f:
     res = re.match(pattern, line)
     if res:
         ok = ok + 1
-        print "%s\n" % res.group(1)
+        print("%s\n" % res.group(1))
     else:
         no = no + 1
 f.close()
